@@ -1,0 +1,245 @@
+.color1 {color: #f6a3ec;}
+.color2 {color: #f8c9cc;}
+.color3 {color: #300d16;}
+.color4 {color: #877677;}
+.color5 {color: #f3eae8;}
+
+/*font-family: 'Chela One', cursive;
+font-family: 'Finlandica', sans-serif;
+font-family: 'Stint Ultra Condensed', cursive;*/
+html,body{
+  margin: 0;
+  padding: 0;
+  background-color: #300d16;
+  
+}
+header{  
+  background-image: url("/assets/portada.jpg"); opacity: 80%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60%;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+  color: #300d16;
+}
+h1{
+  color: #f8c9cc;
+  text-shadow: 0 0 20px #300d16;
+  font-family: 'Grenze Gotisch', cursive;  
+  font-size: 80px;
+}
+.navbar{
+  width: 100%;
+  margin: 0 auto;
+  font-family: 'Grenze Gotisch';
+  font-size: 30px; 
+  display: inline-block;
+  background-color:#f8c9cc;
+  color: #877677;
+  text-shadow: 0 0 5px #300d16;
+
+}
+nav ul  {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline;
+  
+}
+ul li {
+  padding: 5px;
+  width: auto;    
+  margin-right: 80px;
+}
+  .nav-item{
+      text-decoration: none;
+      display: inline;
+      align-items: center;  
+      float: left;
+  }
+  .btn-success{
+    background-color: #f8c9cc;
+    color:#300d16;
+    border-radius: 5px;
+    padding: 8px;
+    font-family: 'Grenze Gotisch';
+  }
+  #sec1{
+    height: 80px;
+    background-color:#f8c9cc;
+    color: #300d16;
+    text-shadow: 0 0 5px #300d16;
+    font-family: 'Grenze Gotisch';
+    font-size: 40px; 
+    text-align: center;
+  }  
+  #sec1{
+    animation-duration: 3s;
+        animation-name: slidein;
+      }
+      
+      @keyframes slidein {
+        from {
+          margin-left: 100%;
+          width: 300%
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+      }
+p{
+  font-family: 'Finlandica', sans-serif;
+  font-size: 18px;
+  color: #f8c9cc;
+  padding:5px;
+  text-align: center;
+  animation: animate__fadeInLeft;
+
+}
+.contenedor-tienda{
+  padding-top: 5%;
+  display: flex;
+  height: auto;
+  justify-content: space-around;
+  background-color: hwb(11 91% 5%);
+  flex-wrap: wrap;
+ 
+}
+.contenedor-tienda img {
+  width: 300px;
+  height: 200px;
+  border: #300d16;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #877677 ;
+  object-fit: cover;
+  justify-content: center;
+  filter: brightness(70%);
+}
+.contenedor-tienda button {
+  background-color: #f8c9cc;
+  border-radius: 5px;
+  color:#300d16;
+  padding: 8px;
+  font-family: 'Finlandica', sans-serif;
+  font-size: 15px;
+  display: flex;
+  justify-content:space-around;
+}
+
+.card{
+  width: 200px;
+  height: 350px;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: center;
+  font-family: 'Finlandica', sans-serif;
+
+}
+
+h4{
+  color: #300d16;
+  font-family: 'Finlandica', sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+h3{
+  color: #877677;
+  font-family: 'Finlandica', sans-serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+#sec2{
+  padding: 10px;
+  height: 80px;
+  background-color:#f8c9cc;
+  color: #300d16;
+  text-shadow: 0 0 5px #300d16;
+  font-family: 'Grenze Gotisch';
+  font-size: 40px; 
+  text-align: center;
+}
+#sec2{
+  animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+#btnCarrito{
+  background-color: #f8c9cc;
+  color:#300d16;
+  border-radius: 5px;
+  padding: 8px;
+  font-family: 'Grenze Gotisch';
+ 
+}
+#contenedorCarrito{
+  color: #f3eae8;
+  text-shadow: 0 0 #300d16;
+}
+#producto.precio{
+  color: #f3eae8;
+  text-shadow: 0 0 #300d16;
+}
+#btnComprafinal{
+  background-color: #f8c9cc;
+  border-radius: 5px;
+  color:#300d16;
+  padding: 8px;
+  font-family: 'Grenze Gotisch';
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: cover;
+  text-align: center;
+  opacity: 80%;
+}
+.mb-3{
+  font-family: 'Finlandica', sans-serif;
+  font-size: 20px;
+  color: #f8c9cc;
+  text-align: center; 
+  padding: 2px;
+}
+label{
+  font-family: 'Finlandica', sans-serif;
+  font-size: 20px;
+  color: #f8c9cc;
+  padding:5px;
+}
+.btn{
+  background-color: #f8c9cc;
+  border-radius: 5px;
+  color:#300d16;
+  padding: 8px;
+  font-family: 'Grenze Gotisch';
+  text-align: center;
+}
+footer{
+  width: 100%;
+  font-family: 'Grenze Gotisch';
+  font-size: 20px; 
+  display: inline-block;
+  background-color:#f8c9cc;
+  color: #877677;
+  text-shadow: 0 0 5px #300d16;
+  text-align:center;
+}
