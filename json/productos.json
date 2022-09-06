@@ -1,0 +1,97 @@
+[
+    {
+    "nombre":"Growler Blonde", 
+    "marca": "Santa Birra",
+    "precio":  950,
+    "img": "/assets/blonde.jpg"
+    },
+    {
+    "nombre": "Growler Porter", 
+    "marca": "Santa Birra",
+    "precio":  950,
+    "img": "/assets/porter.jpg"   
+    },
+    {
+    "nombre":"Growler Vera IPA", 
+    "marca": "Santa Birra",
+    "precio":  950,
+    "img":"/assets/ipa.jpg"
+    },
+    { 
+    "nombre": "Growler Apa" , 
+     "marca": "Santa Birra",
+     "precio":  950,
+     "img": "/assets/apa.jpg"
+     },
+   
+    {
+    "nombre":"Growler Double Honey",
+    "marca": "Santa Birra",
+    "precio":  950,
+    "img": "/assets/honey.jpg"
+    },
+    {
+    "nombre": "Scottish",
+    "marca":"Santa Birra",
+    "precio":  950,
+    "img": "/assets/scottish.jpg"
+    },
+    {
+    
+    "nombre": "Santa Julia Dulce",
+    "marca": "Santa Julia", 
+    "precio": 560,
+    "img": "/assets/julia.jpg"
+    },
+    {
+    "nombre": "Cordero con piel de lobo", 
+    "marca":"Cordero con piel de lobo", 
+    "precio": 980,
+    "img":"/assets/cordero.jpg"
+    },
+    {
+    "nombre": "Otro loco mas",
+    "marca": "Otro loco mas", 
+    "precio": 870,
+    "img": "/assets/otro.jpg"
+    }, 
+    {
+    "nombre": "Portillo Malbec", 
+    "marca": "Portillo Malbec",
+    "precio": 470,
+    "img": "/assets/portilla.jpg"
+    },
+    {
+    "nombre": "Luigi Bosca ", 
+    "marca": "Luigi Bosca",
+    "precio": 1200,
+    "img": "/assets/luigi.jpg"
+    },
+    {
+    "nombre": "Fernet Branca 750ml + 2 Coca Colas 225ml", 
+    "marca": "Promo 1",
+    "precio": 2000,
+    "img": "/assets/promofernet.jpg"
+    },
+    {  
+    "nombre": "Gancia + 1 Sprite 225ml", 
+    "marca": "Promo 2",
+    "precio": 1200,
+    "img":"/assets/sprite.jpg"
+    },
+    {
+    
+    "nombre": "2 Aperol + 2 Cinzano Pro", 
+    "marca": "Promo 4",
+    "precio": 1300,
+    "img":"/assets/aperol.jpg"
+    },
+    {
+    
+    "nombre": "Campari + 2 Citric", 
+    "marca": "Promo 3",
+    "precio": 950,
+    "img": "/assets/campari.jpg"
+    }
+    
+]
