@@ -1,16 +1,7 @@
-color1 {color: #f6a3ec;}
-color2 {color: #f8c9cc;}
-color3 {color: #300d16;}
-color4 {color: #877677;}
-color5 {color: #f3eae8;}
-
-/*font-family: 'Chela One', cursive;
-font-family: 'Finlandica', sans-serif;
-font-family: 'Stint Ultra Condensed', cursive;*/
 html,body{
   margin: 0;
   padding: 0;
-  background-color: #300d16;
+  background-color: #fff;
   
 }
 header{  
@@ -20,9 +11,18 @@ header{
   background-repeat: no-repeat;
   height: 60%;
   width: 100%;
-  padding: 30px;
+  padding: 15px;
+  font-family: 'Grenze Gotisch';
   text-align: center;
   color: #300d16;
+}
+.inputProducto {
+  height: 25px;
+  width: 20px;
+  font-size: 14px;
+  font-family: 'Finlandica', sans-serif;
+  
+
 }
 h1{
   color: #f8c9cc;
@@ -34,7 +34,7 @@ h1{
   width: 100%;
   margin: 0 auto;
   font-family: 'Grenze Gotisch';
-  font-size: 30px; 
+  font-size: 20px; 
   display: inline-block;
   background-color:#f8c9cc;
   color: #877677;
@@ -72,7 +72,7 @@ ul li {
     color: #300d16;
     text-shadow: 0 0 5px #300d16;
     font-family: 'Grenze Gotisch';
-    font-size: 40px; 
+    font-size: 30px; 
     text-align: center;
   }  
   #sec1{
@@ -97,24 +97,13 @@ p{
   color: #f8c9cc;
   padding:5px;
   text-align: center;
-  animation: animate__fadeInLeft;
-
 }
-.contenedor-tienda{
-  padding-top: 5%;
-  display: flex;
-  height: auto;
-  justify-content: space-around;
-  background-color: hwb(11 91% 5%);
-  flex-wrap: wrap;
  
-}
-.contenedor-tienda img {
-  width: 300px;
-  height: 200px;
-  border: #300d16;
-  border-radius: 10px;
-  box-shadow: 0 0 5px #877677 ;
+
+img {
+  width: 60%;
+  height: 60px;
+  border-radius: 5px;
   object-fit: cover;
   justify-content: center;
   filter: brightness(70%);
@@ -123,16 +112,16 @@ p{
   background-color: #f8c9cc;
   border-radius: 5px;
   color:#300d16;
-  padding: 8px;
+  padding: 2px;
   font-family: 'Finlandica', sans-serif;
-  font-size: 15px;
+  font-size: 10px;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
 }
 
 .card{
-  width: 200px;
-  height: 350px;
+  width: 400px;
+  height: 450px;
   margin: 20px 0px;
   display: flex;
   justify-content: center;
@@ -140,19 +129,6 @@ p{
   flex-direction: center;
   font-family: 'Finlandica', sans-serif;
 
-}
-
-h4{
-  color: #300d16;
-  font-family: 'Finlandica', sans-serif;
-  font-size: 20px;
-  text-align: center;
-}
-h3{
-  color: #877677;
-  font-family: 'Finlandica', sans-serif;
-  text-align: center;
-  font-size: 25px;
 }
 
 #sec2{
