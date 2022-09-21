@@ -21,8 +21,6 @@ header{
   width: 20px;
   font-size: 14px;
   font-family: 'Finlandica', sans-serif;
-  
-
 }
 h1{
   color: #f8c9cc;
@@ -34,15 +32,14 @@ h1{
   width: 100%;
   margin: 0 auto;
   font-family: 'Grenze Gotisch';
-  font-size: 20px; 
+  font-size: 22px; 
   display: inline-block;
   background-color:#f8c9cc;
   color: #877677;
-  text-shadow: 0 0 5px #300d16;
+  text-shadow: 0 0 1px #300d16;
 
 }
 nav ul  {
-  margin: 0;
   padding: 0;
   list-style: none;
   display: inline;
@@ -51,7 +48,8 @@ nav ul  {
 ul li {
   padding: 5px;
   width: auto;    
-  margin-right: 80px;
+  margin-right: 15%;
+  margin-left: 15%;
 }
   .nav-item{
       text-decoration: none;
@@ -66,50 +64,51 @@ ul li {
     padding: 8px;
     font-family: 'Grenze Gotisch';
   }
-  #sec1{
-    height: 80px;
+  .card-body{
+    width: 250px;
+    height: 300px;
+    font-size: 15px;
+  }
+  .card-title {
+    font-size: 15px;
+  }
+
+  #quienes{
+    padding: 10px;
+    height: 150px;
     background-color:#f8c9cc;
     color: #300d16;
     text-shadow: 0 0 5px #300d16;
     font-family: 'Grenze Gotisch';
-    font-size: 30px; 
+    font-size: 27px;
     text-align: center;
-  }  
-  #sec1{
-    animation-duration: 3s;
-        animation-name: slidein;
-      }
-      
-      @keyframes slidein {
-        from {
-          margin-left: 100%;
-          width: 300%
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      }
-p{
+  }
+  h2 span:hover {
+    font-family: 'Grenze Gotisch';
+    font-size: 27px; 
+    display: inline-block;
+    background-color:#f8c9cc;
+    color: #877677;
+    text-shadow: 0 0 5px #300d16;
+  }
+#quienes p{
   font-family: 'Finlandica', sans-serif;
   font-size: 18px;
-  color: #f8c9cc;
+  color: #faa4a9;
   padding:5px;
   text-align: center;
 }
- 
 
 img {
   width: 60%;
-  height: 60px;
+  max-height: 500px;
   border-radius: 5px;
   object-fit: cover;
   justify-content: center;
   filter: brightness(70%);
 }
 .contenedor-tienda button {
-  background-color: #f8c9cc;
+  background-color: #faa4a9;
   border-radius: 5px;
   color:#300d16;
   padding: 2px;
@@ -119,9 +118,10 @@ img {
   justify-content:center;
 }
 
+
 .card{
   width: 400px;
-  height: 450px;
+  height: 400px;
   margin: 20px 0px;
   display: flex;
   justify-content: center;
@@ -134,7 +134,7 @@ img {
 #sec2{
   padding: 10px;
   height: 80px;
-  background-color:#f8c9cc;
+  background-color: #f8c9cc;
   color: #300d16;
   text-shadow: 0 0 5px #300d16;
   font-family: 'Grenze Gotisch';
@@ -163,14 +163,15 @@ img {
   border-radius: 5px;
   padding: 8px;
   font-family: 'Grenze Gotisch';
+  text-align: center;
  
 }
 #contenedorCarrito{
-  color: #f3eae8;
+  color: #faa4a9;
   text-shadow: 0 0 #300d16;
 }
 #producto.precio{
-  color: #f3eae8;
+  color: #faa4a9;
   text-shadow: 0 0 #300d16;
 }
 #btnComprafinal{
@@ -182,8 +183,7 @@ img {
 }
 
 .carousel-inner img {
-  width: 100%;
-  max-height: 200px;
+  height: 250px;
   object-fit: cover;
   text-align: center;
   opacity: 80%;
@@ -191,31 +191,122 @@ img {
 .mb-3{
   font-family: 'Finlandica', sans-serif;
   font-size: 20px;
-  color: #f8c9cc;
+  color: #faa4a9;
   text-align: center; 
-  padding: 2px;
+  padding: 10px;
 }
 label{
   font-family: 'Finlandica', sans-serif;
   font-size: 20px;
-  color: #f8c9cc;
-  padding:5px;
+  color: #300d16;
 }
 .btn{
   background-color: #f8c9cc;
   border-radius: 5px;
   color:#300d16;
-  padding: 8px;
+  padding: 10px;
   font-family: 'Grenze Gotisch';
   text-align: center;
 }
+#sec3{
+  padding: 10px;
+  height: 80px;
+  background-color: #f8c9cc;
+  color: #300d16;
+  text-shadow: 0 0 5px #300d16;
+  font-family: 'Grenze Gotisch';
+  font-size: 40px; 
+  text-align: center;
+}
+#sec3{
+  animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+.mapa{
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+}
 footer{
-  width: 100%;
+  width:100%;
+  height: 200px;
   font-family: 'Grenze Gotisch';
   font-size: 20px; 
   display: inline-block;
-  background-color:#f8c9cc;
-  color: #877677;
+  background-color: #f8c9cc;
+  color: #300d16;
   text-shadow: 0 0 5px #300d16;
   text-align:center;
 }
+
+.redes{
+  color: #300d16;
+  text-shadow: 0 0 5px #300d16;
+}
+.redes p {
+  color: #300d16;
+  text-shadow: 0 0 5px #300d16;
+ }
+.redes ul  {
+  display: inline-block;
+  color: #300d16;
+  text-shadow: 0 0 5px #300d16;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+#sec1{
+  padding: 10px;
+  height: 80px;
+  background-color: #f8c9cc;
+  color: #300d16;
+  text-shadow: 0 0 5px #300d16;
+  font-family: 'Grenze Gotisch';
+  font-size: 40px; 
+  text-align: center;
+}
+#sec1{
+  animation-duration: 3s;
+      animation-name: slidein;
+    }
+    
+    @keyframes slidein {
+      from {
+        margin-left: 100%;
+        width: 300%
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+    }
+  .imgEquipo{
+    width: 100%;
+    object-fit:cover center;
+    justify-content: center;
+    text-align: center;
+    filter: brightness(70%);
+    padding: 10px;
+  }
+  #nosotros p{
+    font-family: 'Finlandica', sans-serif;
+    font-size: 25px;
+    color: #faa4a9;
+    text-shadow: 0 0 1px #300d16;
+    text-align: center;
+  }

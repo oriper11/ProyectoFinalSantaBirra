@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,51 +19,48 @@
         <div class="container-fluid">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="#">QUIENES SOMOS</a>
+              <a class="nav-link active" href="quienesSomos.html">NOSOTROS</a>
             </li>
            <li class="nav-item">
-              <a class="nav-link" href="#">CERVEZAS</a>
-            </li>
+              <a class="nav-link" href="#items">PRODUCTOS</a>
             <li class="nav-item">
-              <a class="nav-link" href="#">VINOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">PROMOS APERITIVOS</a>
+              <a class="nav-link" href="#sec3">PICK UP</a>
             </li> 
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTO</a>
+                <a class="nav-link" href="#sec2">CONTACTO</a>
               </li> 
-            <input type="text" placeholder="Buscar producto" id="inputProducto"><br><br>
-              <div class="row" id="divProductos"></div>
           </ul>
+          <div class="conteiner">
+            <input type="text" placeholder="Buscar producto" id="inputProducto"><br><br>
+            <div class="row" id="divProductos"></div>
+          </div>
         </div>
       </nav>
 </header>
-<body> <div class="conteiner">
-</div>
-<h2 id="sec1">Quienes somos</h2>
-<div class="container-fluid">
-  <div class="row">
-    <p> En – Cervecería SANTA BIRRA – tenemos la misión única de hacer nuestra cerveza con tanto entusiasmo y orgullo que esos sabores únicos lleguen a toda nuestra comunidad hasta el punto donde la pasión por lo “Artesanal” sea igual a la de nosotros. Estamos comprometidos con lo genuino, siendo inconformistas y volver a los orígenes, destacar la esencia de los ingredientes, cuidar los detalles y volver a poner lo artesano dentro de los corazones de las personas.
-    </p>
-  </div>
+<body> 
+<h2 id="quienes">Tenemos las bebidas listas para ese momento especial.<br>
+  <span>para celebrar.</span><br>
+  <span>para planear.</span><br>
+  <span>para acompañar.</span><br>
+ </h2>
+
   <div class="container">
     <div class="row">
         <main id="items" class="col-sm-12 row"></main>
 
-        <aside class="col-sm-4">
+        <aside class="col-sm-12">
 
           <ul id="carrito" class="list-group"></ul>
             <hr>
 
             <p class="center-text">Total: $<span id="total"></span></p>
-            <button id="botonVaciar" class="btn btn-danger">Vaciar</button>
-            <button id="botonComprar" class="btn btn-sucess">Comprar</button>
+            <button id="botonVaciar" class="btn btn-danger" class="center-text">Vaciar</button>
+            <button id="botonComprar" class="btn btn-sucess" class="center-text">Comprar</button>
 
           </aside>
     </div>
 </div>
-<div class="conteiner-fluid">
+<div class="conteiner">
   <div class="row">
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators">
@@ -94,6 +91,15 @@
     </div>
   </div>
 </div>
+<h2 id="sec3">¿Donde nos encontramos?</h2>
+<div class="container-fluid">
+<div class="row">
+  <div class="mapa col-lg-12">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.839821743727!2d-58.66185268481707!3d-34.48158748049132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca34370f76ec1%3A0xddc8b32a318bbb17!2sAlexis%20Carrel%202809%2C%20B1618%20El%20Talar%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1655169776799!5m2!1ses-419!2sar" width="400" height="300" style="border-radius:5px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Punto de retiro - SIN COSTO <br>
+      Alexis Carrel 2809, El Talar.<br>
+    </p>
+  </div>
 <h2 id="sec2">Contacto</h2>
 <div class="container-fluid">
   <div class="row">
@@ -122,13 +128,23 @@
 </div>
   
 <footer>
-      <div class="conteiner-fluid">
+      <div class="conteiner">
           <div class="row">
               <div class="redes col-lg-12">
-              <p>Todos los derechos reservados por copyright</p>
-            <p><a href="https://www.instagram.com/puropilatesok/" target="_blank"><i class="fa-brands fa-instagram"></i>
-              <a href="https://api.whatsapp.com/send?phone=+541131679480" target="_blank"><i class="fab fa-whatsapp"></i>  
-            </p>
+              <ul>
+                  <li>
+                  <a class="redes" href="https://api.whatsapp.com/phone=1131679480&text=Hola,%20qué%20tal?%.%Quisiera%realizar%un%pedido.">ESCRIBINOS POR WHATSAPP</a>
+                  </li>
+                  <li>
+                  <a class="redes" href="https://www.instagram.com">SEGUINOS EN INSTAGRAM</a>
+                  </li>
+                  <li>
+                    <p>
+                      Todos los derechos reservados por copyright
+                    </p>
+                  </li>
+              </ul>
+            </div>
            
 </footer>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.29/dist/sweetalert2.all.min.js"></script>

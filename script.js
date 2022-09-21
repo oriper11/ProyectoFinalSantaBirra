@@ -118,7 +118,7 @@ function renderizarProductos() {
   Productos.forEach((info) => {
       // Estructura
       const productos = document.createElement('div');
-      productos.classList.add('card', 'col-sm-4');
+      productos.classList.add('card', 'col-lg-12');
       // Body
       const productosCardBody = document.createElement('div');
       productosCardBody.classList.add('card-body');
@@ -182,7 +182,6 @@ function representarCarrito() {
       miBoton.style.marginLeft = '1rem';
       miBoton.dataset.item = item;
       miBoton.addEventListener('click', borrarItemCarrito);
-    
       productos.appendChild(miBoton);
       DOMcarrito.appendChild(productos);
   });
@@ -234,7 +233,6 @@ function cargarCarritoDeLocalStorage () {
   }
 }
 
-
 DOMbotonVaciar.addEventListener('click', vaciarCarrito);
 
 cargarCarritoDeLocalStorage();
@@ -273,7 +271,7 @@ DOMbotonComprar.addEventListener('click', () => {
   function mostrarProductos(arrayProductos) {
       arrayProductos.forEach((producto, indice) => {
           divProductos.innerHTML += `
-              <div class="card" id="producto${indice}" style="width: 18rem;margin:3px;">
+              <div class="card" id="producto${indice}" style="width:250px;height:300px;margin:3px;">
                   <div class="card-body">
                       <h5 class="card-title">${producto.nombre}</h5>
                       <p class="card-text">Marca: ${producto.marca}</p>
